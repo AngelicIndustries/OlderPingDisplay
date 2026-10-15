@@ -1,4 +1,4 @@
-package org.fentanylsolutions.olderpingdisplay.unused;
+package industries.angelic.olderpingdisplay.unused;
 
 @Deprecated
 public class OldCarbonConf {

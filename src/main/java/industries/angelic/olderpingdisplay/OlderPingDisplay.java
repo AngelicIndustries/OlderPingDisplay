@@ -1,4 +1,4 @@
-package org.fentanylsolutions.olderpingdisplay;
+package industries.angelic.olderpingdisplay;
 
 import java.io.File;
 
@@ -16,13 +16,13 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(
     modid = OlderPingDisplay.MODID,
     version = Tags.VERSION,
-    name = "Numerical Tab Ping",
+    name = "Older Ping Display",
     acceptedMinecraftVersions = "[1.7.10]",
     acceptableRemoteVersions = "*",
     dependencies = "required-after:unimixins",
-    guiFactory = "org.fentanylsolutions.olderpingdisplay.gui.GuiFactory",
+    guiFactory = "industries.angelic.olderpingdisplay.gui.GuiFactory",
     customProperties = { @Mod.CustomProperty(k = "license", v = "LGPLv3"),
-        @Mod.CustomProperty(k = "issueTrackerUrl", v = "https://github.com/JackOfNoneTrades/OlderPingDisplay/issues"),
+        @Mod.CustomProperty(k = "issueTrackerUrl", v = "https://github.com/AngelicIndustries/OlderPingDisplay/issues"),
         @Mod.CustomProperty(k = "iconFile", v = "assets/olderpingdisplay/logo.png"),
         @Mod.CustomProperty(k = "backgroundFile", v = "assets/olderpingdisplay/background.png") })
 public class OlderPingDisplay {
@@ -35,8 +35,8 @@ public class OlderPingDisplay {
     public static File confFile;
 
     @SidedProxy(
-        clientSide = "org.fentanylsolutions.olderpingdisplay.ClientProxy",
-        serverSide = "org.fentanylsolutions.olderpingdisplay.CommonProxy")
+        clientSide = "industries.angelic.olderpingdisplay.ClientProxy",
+        serverSide = "industries.angelic.olderpingdisplay.CommonProxy")
     public static CommonProxy proxy;
 
     @SuppressWarnings("unused")

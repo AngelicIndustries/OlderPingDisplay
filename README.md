@@ -4,12 +4,12 @@ A simple client-side mod which displays each player's ping in the player list as
 
 ![logo](images/logo_small.png)
 
-[![hub](images/badges/github.png)](https://github.com/JackOfNoneTrades/OlderPingDisplay/releases)
+[![hub](images/badges/github.png)](https://github.com/AngelicIndustries/OlderPingDisplay/releases)
 [![modrinth](images/badges/modrinth.png)](https://modrinth.com/mod/olderpingdisplay)
 [![curse](images/badges/curse.png)](https://www.curseforge.com/minecraft/mc-mods/olderpingdisplay)
 [![mcmodcn](images/badges/mcmodcn.png)](https://www.mcmod.cn/class/24647.html)
-[![67](images/badges/67.png)](https://67.fentanylsolutions.org/mod/olderpingdisplay/)
-[![maven](images/badges/maven.png)](https://maven.fentanylsolutions.org/#/releases/org/fentanylsolutions/olderpingdisplay/OlderPingDisplay)
+[![67](images/badges/67.png)](https://67minecraft.com/mod/olderpingdisplay/)
+[![maven](images/badges/maven.png)](https://maven.angelic.industries/#/releases/industries/angelic/olderpingdisplay/OlderPingDisplay)
 ![forge](images/badges/forge.png)
 [![cord](images/badges/cord.png)](https://discord.gg/xAWCqGrguG)
 
@@ -18,13 +18,18 @@ A simple client-side mod which displays each player's ping in the player list as
 
 ![normal](images/screenshots/normal.png)
 ![normal](images/screenshots/tabfaces.png)
-Compatible with TabFaces [![curse](images/icons/curse.png)](https://github.com/JackOfNoneTrades/TabFaces/blob/master/images/badges/forge.png) [![modrinth](images/icons/modrinth.png)](https://modrinth.com/mod/tabfaces) [![git](images/icons/git.png)](https://github.com/JackOfNoneTrades/TabFaces/releases).
+Compatible with TabFaces [![curse](images/icons/curse.png)](https://www.curseforge.com/minecraft/mc-mods/tabfaces) [![modrinth](images/icons/modrinth.png)](https://modrinth.com/mod/tabfaces) [![git](images/icons/git.png)](https://github.com/AngelicIndustries/TabFaces/releases).
 
 ## Building
 
 `./gradlew build`.
 
+Development runs include AngelLib and other QoL/compatibility mods. The published mod only requires UniMixins and does not need to be installed on the server.
+
+Maven coordinates: `industries.angelic.olderpingdisplay:OlderPingDisplay:1.1.0` from [Angelic Maven](https://maven.angelic.industries/releases).
+
 ## Credits
+* Maintained by [Angelic Industries](https://angelic.industries/)
 * [Original mod](https://github.com/vladmarica/better-ping-display-fabric)
 * [NumericalTabPing](https://github.com/Nixuge/NumericalTabPing)
 * [GT:NH buildscript](https://github.com/GTNewHorizons/ExampleMod1.7.10)
@@ -35,7 +40,7 @@ Compatible with TabFaces [![curse](images/icons/curse.png)](https://github.com/J
 
 ## Buy me a coffee
 
-* [ko-fi.com](ko-fi.com/jackisasubtlejoke)
+* [ko-fi.com](https://ko-fi.com/jackisasubtlejoke)
 * Monero: `893tQ56jWt7czBsqAGPq8J5BDnYVCg2tvKpvwTcMY1LS79iDabopdxoUzNLEZtRTH4ewAcKLJ4DM4V41fvrJGHgeKArxwmJ`
 
 <br>

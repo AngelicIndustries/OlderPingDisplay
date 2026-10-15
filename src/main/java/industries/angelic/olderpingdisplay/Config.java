@@ -1,4 +1,4 @@
-package org.fentanylsolutions.olderpingdisplay;
+package industries.angelic.olderpingdisplay;
 
 import java.io.File;
 import java.util.Arrays;

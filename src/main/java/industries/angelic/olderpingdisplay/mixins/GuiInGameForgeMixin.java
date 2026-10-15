@@ -1,4 +1,4 @@
-package org.fentanylsolutions.olderpingdisplay.mixins;
+package industries.angelic.olderpingdisplay.mixins;
 
 import java.util.List;
 
@@ -7,15 +7,16 @@ import net.minecraft.client.gui.GuiPlayerInfo;
 import net.minecraft.client.multiplayer.ServerData;
 import net.minecraftforge.client.GuiIngameForge;
 
-import org.fentanylsolutions.olderpingdisplay.ClientVars;
-import org.fentanylsolutions.olderpingdisplay.Config;
-import org.fentanylsolutions.olderpingdisplay.OlderPingDisplay;
-import org.fentanylsolutions.olderpingdisplay.PingColors;
 import org.lwjgl.opengl.GL11;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
+
+import industries.angelic.olderpingdisplay.ClientVars;
+import industries.angelic.olderpingdisplay.Config;
+import industries.angelic.olderpingdisplay.OlderPingDisplay;
+import industries.angelic.olderpingdisplay.PingColors;
 
 @SuppressWarnings("unused")
 @Mixin(GuiIngameForge.class)

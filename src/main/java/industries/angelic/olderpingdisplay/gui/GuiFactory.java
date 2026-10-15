@@ -1,4 +1,4 @@
-package org.fentanylsolutions.olderpingdisplay.gui;
+package industries.angelic.olderpingdisplay.gui;
 
 import java.util.Set;
 
@@ -8,13 +8,12 @@ import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.resources.I18n;
 import net.minecraftforge.common.config.ConfigElement;
 
-import org.fentanylsolutions.olderpingdisplay.Config;
-import org.fentanylsolutions.olderpingdisplay.OlderPingDisplay;
-
 import com.google.common.collect.Lists;
 
 import cpw.mods.fml.client.IModGuiFactory;
 import cpw.mods.fml.client.config.GuiConfig;
+import industries.angelic.olderpingdisplay.Config;
+import industries.angelic.olderpingdisplay.OlderPingDisplay;
 
 @SuppressWarnings("unused")
 public class GuiFactory implements IModGuiFactory {
