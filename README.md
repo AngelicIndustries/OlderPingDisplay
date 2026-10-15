@@ -24,10 +24,6 @@ Compatible with TabFaces [![curse](images/icons/curse.png)](https://www.cursefor
 
 `./gradlew build`.
 
-Development runs include AngelLib and other QoL/compatibility mods. The published mod only requires UniMixins and does not need to be installed on the server.
-
-Maven coordinates: `industries.angelic.olderpingdisplay:OlderPingDisplay:1.1.0` from [Angelic Maven](https://maven.angelic.industries/releases).
-
 ## Credits
 * Maintained by [Angelic Industries](https://angelic.industries/)
 * [Original mod](https://github.com/vladmarica/better-ping-display-fabric)
